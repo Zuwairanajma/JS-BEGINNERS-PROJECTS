@@ -1,0 +1,47 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+:root {
+    --white: #fff;
+    --black: #1c2b2d;
+    --blue: #31326f;
+    --light-blue: #005490;
+    --color-primary: #9d0191;
+    --color-sec: #db6400;
+    --color-grey: #eee;
+    --color-dark-grey: #222831;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+    background: url(./images/bg.png) no-repeat;
+    background-size: cover;
+}
+h1 {
+    font-size: 55px;
+    color: #fff;
+    line-height: 2;
+}
+
+#countdown {
+    background-color: rgba(0,0,0,.4);
+    padding: 20px;
+    font-size: 45px;
+    color: #fff;
+    border-radius: 5px;
+}
