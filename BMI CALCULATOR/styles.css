@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+:root {
+    --white: #fff;
+    --black: #1c2b2d;
+    --blue: #31326f;
+    --light-blue: #005490;
+    --color-primary: #9d0191;
+    --color-sec: #db6400;
+    --color-grey: #eee;
+    --color-dark-grey: #222831;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Open Sans", sans-serif; 
+}
+p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Start Here */
+
+.main {
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    height: 100vh;
+}
+ 
+.box {
+    width: 40rem;
+    background:  var(--light-blue);
+    padding: 2rem;
+    color: var(--white);
+
+}
+ 
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+form {
+    padding: 1rem 0;
+    font-size: 1.6rem;
+}
+
+form > * {
+    margin-bottom: 1rem;
+
+}
+
+form input,
+.btn {
+    padding: 1rem;
+    width: 100%;
+    font-size: 1.6rem;
+}
+
+.btn, 
+.reset {
+    background: var(--color-sec);
+    color: var(--width);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.result {
+    padding: 1rem;
+}
+
+.reset {
+    padding: 1rem;
+    background: red;
+    margin: 5px 0;
+    display: none;
+}
+.loader-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader {
+    background: var(--white);
+    width: 5rem;
+}
